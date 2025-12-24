@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: rgba(149, 145, 145, 0.15);
+}
+/* Navbar Css Start */
+
+.mainNav{
+    width: 1170px;
+    margin: auto;
+}
+.mainMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+}
+.mainMenu li{
+    list-style: none;
+
+}
+.mainMenu li a{
+    text-decoration: none;
+    font-family: open sans;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+}
+.mainMenu  button{
+    padding: 10px 20px;
+    font-family: open sans;
+    font-weight: 600;
+    color: rgba(0, 106, 80, 1);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 106, 80, 1);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.mainMenu  button:hover{
+    background:orange;
+    border: none;
+    color: white;
+}
+
+/* Navbar Css End */
+
+/* Banner Css Start */
+.Hero{
+    width: 1170px;
+    height: 450px;
+    margin:auto;
+    border-radius: 20px;
+    background:rgba(198,228,214,1);
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: open sans;
+}
+.bannerContent{
+    width: 540px;
+}
+.bannerContent p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+    line-height: 35px;
+}
+.bannerContent h1{
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+}
+.bannerContent button{
+    background: rgba(0,106,80,1);
+    color:rgba(255,255,255,1);
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 0.5s;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0%;
+}
+.bannerContent button:hover{
+    background:rgb(2, 64, 2);
+    color:white;
+}
+
+/* Hero Sec Css End */
+
+/* Vision Css Start */
+.pillarSec{
+    width: 1170px;
+    height: 320px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: open sans;
+    
+}
+.pillarSec h2{
+    margin-bottom: 30px;
+    color:rgba(14, 14, 14, 1);
+}
+
+.pillarContent{
+    display: flex;
+    gap:10px;
+    justify-content: space-between;
+}
+.pillarItem{
+    width: 302px;
+    height: 240px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    padding: 30px;
+}
+.pillarItem img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pillarItem h4{
+    color:rgba(14, 14, 14, 0.8);
+    margin-bottom: 8px;
+}
+.pillarItem p{
+    color:rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+}
+
+/* Pillar Css End */
+
+/* Vision Css Start */
+.vision{
+    width:1170px;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: open sans;
+}
+.vision:nth-child(1){
+    background-color: green;
+}
+.vision h2{
+   margin-bottom: 30px;
+    color:rgba(14, 14, 14, 1);
+}
+.vision p{
+     margin-bottom: 30px;
+     font-size: 16px;
+     color:rgba(14, 14, 14, 0.7);
+     font-weight: 400;
+}
+.visionConten{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+.visionConten .btn1{
+    padding: 8px 15px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+    background-color: rgba(84, 144,245,1);
+    color:white;
+}
+.visionConten .btn2{
+    padding: 8px 15px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+    background-color: rgba(9,161,92,1);
+    color:white;
+}
+.visionConten .btn3{
+    padding: 8px 15px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+    background-color: rgba(255,194,57,1);
+    color:white;
+}
+.btn:hover{
+    background-color: blueviolet;
+}
+
+.visionItem1{
+    width: 410px;
+    height: 300px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: rgba(84, 144,245,0.2);
+}
+.visionItem2{
+    width: 410px;
+    height: 300px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: rgba(198,228,214,1);
+}
+.visionItem3{
+    width: 410px;
+    height: 300px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: rgba(247,235,207, 1);
+}
+.vitem h4{
+    font-size: 20px;
+    color:rgba(14, 14, 14, 0.8);
+    margin:10px 0;
+}
+.vitem p{
+    font-size: 15px;
+    font-weight: 400;
+    color:rgba(14, 14, 14, 0.7);
+}
+
+/* Vision Css End */
+
+/* Quote Css Start */
+.Quote{
+    box-sizing: border-box;
+    width: 1170px;
+    background:rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    padding: 20px 0;
+    margin:auto;
+    margin-bottom: 50px;
+}
+.quteContent{
+   background-image: url(../assets/quote-bg.png);
+   background-repeat: no-repeat; 
+   padding: 20px 0;
+   margin: 20px;
+}
+.quteContent p{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.quteContent h4{
+   color: rgba(14, 14, 14, 0.8);
+font-family: open sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 40px; 
+margin-top: 20px;
+}
+
+/* Quote Css End */
+
+/* Your Opinion Css Start */
+.yourOpinion{
+    width: 1110px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 30px;
+    margin: auto;
+}
+table{
+    width:100%;
+    margin:auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid #ddd;
+    padding: 15px;
+   
+}
+th{
+    background-color: rgb(3, 105, 40);
+    color: white;
+}
+th:nth-child(1){
+    border-right: none;
+}
+th:nth-child(2){
+    border-left: none;
+}
+select{
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+th:last-child, td:last-child {
+    width: 1px; /* এটি কলামকে একদম ছোট করতে বাধ্য করবে */
+    white-space: nowrap; /* টেক্সট যেন ভেঙে না যায় */
+}
+
+/* Opinion Css End */
+
+/* News Css Start */
+.news{
+    width: 1170px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: open sans;
+}
+.newHeading{
+color: rgba(14, 14, 14, 1);
+font-style: Bold;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+.newHeading p{
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.newsContent{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+}
+.newsPhoto{
+    width: 400px;
+    height: 300px;
+    border-radius: 24px;
+}
+.channelLogo{
+    width: 134px;
+    height: 40px; 
+    margin-top: 10px;   
+}
+.newsContent p{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(14,14,l4,0.7);
+    Date: 05/01/2025
+}
+.newbtn{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.seconNew{
+    flex-direction: row-reverse;
+}
+
+/* News Css End */
+
+/* Donate Css Start */
+.Donate{
+    width: 1170px;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    font-family: open sans;
+}
+.donateDetail{
+    padding: 60px;
+}
+.donateDetail p{
+    color: rgba(14, 14, 14, 0.7);
+   font-family: Fira Sans;
+   font-style: Regular;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0%   
+   text-align: center;
+   margin-top:15px;
+}
+.Donate ul{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.Donate ul li{
+    font-family: open sans;
+    list-style: none;
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1); 
+
+}
+.Donate ul li:hover{
+    background-color: #ddd;
+}
+.Donate ul li:nth-child(2){
+   background: rgb(171, 189, 180);
+}
+.otherAmount{
+    width: 60%;
+    padding: 15px ;
+    border: none;
+    color: #cac5c5;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* Donate Css End */
+
+/* Newsletter Css Start */
+.newsletter{
+    width:1170px;
+    
+    margin: auto;
+    text-align: center;
+    border-radius: 24px;
+
+    background: rgba(198, 228, 214, 1);
+}
+.newletterItem{
+    padding: 80px;
+    font-family: open sans;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+.newletterItem h1{
+color: rgba(14, 14, 14, 1);
+font-style: Bold;
+font-size: 30px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.newletterItem p{
+    width: 600px;
+color: rgba(14, 14, 14, 0.7);
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.input-group {
+    display: flex; /* Element gulo ke pashapashi anbe */
+    align-items: center;
+  }
+
+  .input-group input[type="text"] {
+    padding: 11px;
+    width: 500px;
+    border: none;
+    outline: none;
+    /* Border-radius logic: Sudhu bame round hobe */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .input-group input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: 1px solid #28a745;
+    cursor: pointer;
+    /* Gap remove korar jonno margin zero */
+    margin-left: 0; 
+    /* Border-radius logic: Sudhu dane round hobe */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .input-group  input::placeholder {
+  color: rgb(152, 148, 148);
+  opacity: 1; /* Firefox-e default bhabe opacity kom thake, tai 1 kore deya bhalo */
+}
+  /* Hover effect */
+  .input-group input[type="submit"]:hover {
+    background-color: #218838;
+  }
+
+  /* Newsletter Css End */
+
+  /* Footer Css Start */
+  footer{
+    font-family: open sans;
+    margin-top: 50px;
+    background:rgba(255, 255, 255, 1);
+  }
+  .footerItem{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+  }
+  .footerItem h1{
+    margin-bottom: 30px;
+  }
+  .footerItem ul{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .footerItem ul li{
+    list-style: none;
+
+  }
+
+
