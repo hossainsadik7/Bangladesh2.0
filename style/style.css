@@ -8,6 +8,9 @@
 body{
     background-color: rgba(149, 145, 145, 0.15);
 }
+::selection{
+    background:orange;
+}
 /* Navbar Css Start */
 
 .mainNav{
